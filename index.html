@@ -194,8 +194,9 @@
           <h2>Book a <span>Table</span></h2>
         </div>
 
-        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
+        <form action="https://api.web3forms.com/submit" method="post" role="form" class="php-email-form">
           <div class="row">
+		  <input type="hidden" name="access_key" value="fc6b7805-7964-4359-8530-96a9dc0ab237">
             <div class="col-lg-4 col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
